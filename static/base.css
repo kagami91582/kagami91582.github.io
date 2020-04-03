@@ -47,7 +47,15 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.imgur.com/8Xi4aHn.jpg");
 }
 
-.bodyimg1, .bodyimg2{
+.bodyimg3{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("mowiki.jpg");
+}
+
+.bodyimg4{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("coscup.jpg");
+}
+
+.bodyimg1, .bodyimg2, .bodyimg3, .bodyimg4{
   background-position: center;
   background-size: cover;
 }
