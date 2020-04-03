@@ -1,47 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>給瑞首頁</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+    <title>GamerGary</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" 
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
     <link rel="stylesheet" href="static/base.css">
 </head>
-<body>
+
+<body id="body" class="bodyimg1">
     <main class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         <header class="masthead mb-auto">
-          <div class="inner">
-            <h3 class="masthead-brand">Gary's Profile</h3>
-            <nav class="nav nav-masthead justify-content-center">
-              <a class="nav-link active" href="javascript:void()">首頁</a>
-              <a class="nav-link" href="#">關於給瑞</a>
-              <a class="nav-link" href="#">召喚給瑞</a>
-            </nav>
-          </div>
+            <div class="inner">
+                <h3 class="masthead-brand">GaryJiang</h3>
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link active" href="javascript:void()">首頁</a>
+                    <a class="nav-link" href="about.html">關於給瑞</a>
+                    <a class="nav-link" href="content.html">召喚給瑞</a>
+                </nav>
+            </div>
         </header>
-      
-        <main role="main" class="inner cover">
-          <h1 class="cover-heading">日常、吐槽、小清新</h1>
-          <p class="lead">平常寫code，生活玩音game，接觸新事物<br>這就是我給瑞，佛系後端工程師</p>
-          <p class="lead">
-            <a href="#" class="btn btn-lg btn-secondary">給我更多給瑞</a>
-          </p>
+
+        <main id='main' role="main" class="inner cover">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h1 id="slogan" class="cover-heading">日常、吐槽、小清新</h1>
+                        <p id="maintext" class="lead">平常寫code，生活玩音game，接觸新事物<br>這就是我給瑞，佛系後端工程師</p>
+                        <p class="lead">
+                            <a href="#" class="btn btn-lg btn-secondary">給我更多給瑞</a>
+                        </p>
+                    </div>
+                    <div class="carousel-item">
+                        <h1 id="slogan" class="cover-heading">Python也能出頭天</h1>
+                        <p id="maintext" class="lead">專寫Django，略懂Flask<br>用派森蛇蛇來做出更多好東西</p>
+                        <p class="lead">
+                            <a href="#" class="btn btn-lg btn-secondary">"Python遊樂園"鐵人賽團體組準備中</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- <h1 id="slogan" class="cover-heading">日常、吐槽、小清新</h1>
+            <p id="maintext" class="lead">平常寫code，生活玩音game，接觸新事物<br>這就是我給瑞，佛系後端工程師</p>
+            <p class="lead">
+                <a href="#" class="btn btn-lg btn-secondary">給我更多給瑞</a>
+            </p> -->
         </main>
-      
+
         <footer class="mastfoot mt-auto">
-          <div class="inner">
-            <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-          </div>
+            <div class="inner">
+                <p>The draft type from <a href="https://hackmd.io/@GaryJiang/myprofile">Gary's HackMD file</a>.
+                    GaryJiang © 2020</p>
+            </div>
         </footer>
     </main>
-      
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" 
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
 </body>
+<script>
+    (function (){
+        $('.carousel').carousel({
+            interval: false
+        })
+        setInterval(changebg,6000);
+    })();
+
+    function changebg(){
+        let img1 = $(".bodyimg1").length
+        let img2 = $(".bodyimg2").length
+
+        if (img1 > img2){
+            document.getElementById("body").classList.remove("bodyimg1");
+            document.getElementById("body").classList.add("bodyimg2");
+            $('.carousel').carousel('next');
+        }
+        else{
+            document.getElementById("body").classList.remove("bodyimg2");
+            document.getElementById("body").classList.add("bodyimg1");
+            $('.carousel').carousel('next');
+        }
+    }
+
+</script>
+
 </html>
