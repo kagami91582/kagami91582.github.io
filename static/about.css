@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(65, 65, 65);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+
+.jumbotron{
+    margin-top:5%;
+    color: rgb(25, 25, 25);
+}
+
+.parallax{
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.aboutimg1{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("coscup.jpg");
+}
+.aboutimg2{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("coscup.jpg");
+}
+.aboutimg3{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://i.imgur.com/aKHZ1o6.png");
+}
+.aboutimg4{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://i.imgur.com/aKHZ1o6.png");
+}
+.aboutimg5{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://i.imgur.com/meED4Lz.jpg");
+}
+
+.aboutimg1, .aboutimg2, .aboutimg3, .aboutimg4, .aboutimg5{
+    background-position: center;
+    background-size: cover;
+}
